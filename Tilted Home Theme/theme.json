@@ -1,0 +1,77 @@
+{
+	"name": "Tilted Home",
+	"author": "TheRensei",
+	"target": "Home",
+	"version": "v1.0",
+	"description": "Clean tiled home view portraits",
+	"manifest_version": 5,
+	"inject": {
+		"shared.css": [
+			"SP"
+		]
+	},
+	"dependencies": {},
+	"patches": {
+		"Angle": {
+			"type": "slider",
+			"default": "-5deg",
+			"values": {
+				"-20deg": {
+					"tilt_angle/-20deg.css": [
+						"SP"
+					]
+				},
+				"-15deg": {
+					"tilt_angle/-15deg.css": [
+						"SP",
+						"QuickAccess"
+					]
+				},
+				"-10deg": {
+					"tilt_angle/-10deg.css": [
+						"SP"
+					]
+				},
+				"-5deg": {
+					"tilt_angle/-5deg.css": [
+						"SP"
+					]
+				},
+				"5deg": {
+					"tilt_angle/5deg.css": [
+						"SP"
+					]
+				},
+				"10deg": {
+					"tilt_angle/10deg.css": [
+						"SP"
+					]
+				},
+				"15deg": {
+					"tilt_angle/15deg.css": [
+						"SP"
+					]
+				},
+				"20deg": {
+					"tilt_angle/20deg.css": [
+						"SP"
+					]
+				}
+			},
+			"components": []
+		},
+		"Darken portraits": {
+			"type": "checkbox",
+			"default": "Yes",
+			"values": {
+				"Yes": {
+					"darkerportraits.css": [
+						"SP"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		}
+	}
+}

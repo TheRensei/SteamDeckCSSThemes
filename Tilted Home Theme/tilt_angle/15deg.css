@@ -1,0 +1,7 @@
+:root {
+    --ren-tilt-angle: 15deg !important;
+    --ren-image-zoom: 1.4 !important;
+    --ren-most-recent-offset: 6% !important;
+    --ren-view-more-offset: -18% !important;
+    --ren-view-more-focus-scale: 0.71 !important;
+}
