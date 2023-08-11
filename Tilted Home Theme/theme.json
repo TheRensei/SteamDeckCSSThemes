@@ -3,7 +3,7 @@
 	"author": "TheRensei",
 	"target": "Home",
 	"version": "v1.0",
-	"description": "Clean tiled home view portraits",
+	"description": "Tilted home view portraits",
 	"manifest_version": 5,
 	"inject": {
 		"shared.css": [
@@ -14,45 +14,44 @@
 	"patches": {
 		"Angle": {
 			"type": "slider",
-			"default": "-5deg",
+			"default": "-5",
 			"values": {
-				"-20deg": {
+				"-20": {
 					"tilt_angle/-20deg.css": [
 						"SP"
 					]
 				},
-				"-15deg": {
+				"-15": {
 					"tilt_angle/-15deg.css": [
-						"SP",
-						"QuickAccess"
+						"SP"
 					]
 				},
-				"-10deg": {
+				"-10": {
 					"tilt_angle/-10deg.css": [
 						"SP"
 					]
 				},
-				"-5deg": {
+				"-5": {
 					"tilt_angle/-5deg.css": [
 						"SP"
 					]
 				},
-				"5deg": {
+				"5": {
 					"tilt_angle/5deg.css": [
 						"SP"
 					]
 				},
-				"10deg": {
+				"10": {
 					"tilt_angle/10deg.css": [
 						"SP"
 					]
 				},
-				"15deg": {
+				"15": {
 					"tilt_angle/15deg.css": [
 						"SP"
 					]
 				},
-				"20deg": {
+				"20": {
 					"tilt_angle/20deg.css": [
 						"SP"
 					]
