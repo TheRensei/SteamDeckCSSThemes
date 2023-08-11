@@ -71,6 +71,19 @@
 				"No": {}
 			},
 			"components": []
+		},
+		"Straight images": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"straightimages.css": [
+						"SP"
+					]
+				},
+				"No": {}
+			},
+			"components": []
 		}
 	}
 }

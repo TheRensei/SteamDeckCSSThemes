@@ -67,21 +67,6 @@
     overflow: hidden;
 }
 
-/*Untilt the image and scale it to fit the frame - portrait*/
-.gamepadhome_RecentSection_39tNv 
-.basicgamecarousel_BasicGameCarousel_3MdH5
-.appportrait_PortraitImage_2IYf7
-{
-    transform: skew(calc(-1*var(--ren-tilt-angle))) scale(var(--ren-image-zoom));
-}
-
-/*Untilt the image and scale it to fit the frame - landscape*/
-.gamepadhome_RecentSection_39tNv 
-.basicgamecarousel_BasicGameCarousel_3MdH5
-.appportrait_PortraitImage_2IYf7.appportrait_Landscape_3VOR2 {
-    transform: skew(calc(-1*var(--ren-tilt-angle))) scale(calc(var(--ren-image-zoom) * 0.91));
-}
-
 /*Untilt the compatibility icons*/
 .gamepadhome_RecentSection_39tNv 
 .basicgamecarousel_BasicGameCarousel_3MdH5
