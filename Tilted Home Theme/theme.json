@@ -72,19 +72,6 @@
 			},
 			"components": []
 		},
-		"Straight images": {
-			"type": "checkbox",
-			"default": "No",
-			"values": {
-				"Yes": {
-					"straightimages.css": [
-						"SP"
-					]
-				},
-				"No": {}
-			},
-			"components": []
-		},
 		"Tilt Method": {
 			"type": "dropdown",
 			"default": "One Way",
