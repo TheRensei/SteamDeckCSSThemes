@@ -3,7 +3,8 @@
 .basicgamecarousel_BasicGameCarousel_3MdH5
 .appportrait_HoversEnabled_54PuC
 {
-     transform: skew(var(--ren-tilt-angle));
+    transform: skew(var(--ren-tilt-angle));
+	transition-duration: 0.4s;
 }
 
 /*Tilt and scale focused tile*/
@@ -12,4 +13,13 @@
 .appportrait_HoversEnabled_54PuC.gpfocuswithin 
 {
     transform: skew(var(--ren-tilt-angle)) scale(1.02);
+}
+
+
+/*Untilt the compatibility icons*/
+.gamepadhome_RecentSection_39tNv 
+.basicgamecarousel_BasicGameCarousel_3MdH5
+.appportrait_LibraryItemOverlayInnerArea_2GRcK > div
+{
+    transform: skew(calc(-1*var(--ren-tilt-angle)));
 }

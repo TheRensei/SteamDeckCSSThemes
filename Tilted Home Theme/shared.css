@@ -33,11 +33,16 @@
     transform: translateX(var(--ren-most-recent-offset));
 }
 
-/*Draw focused tile and glow on top of the rest*/
+/*Draw focused tile and glow on top of the rest, also while tabbed out*/
 .gamepadhome_RecentSection_39tNv 
 .basicgamecarousel_BasicGameCarousel_3MdH5
 .ReactVirtualized__Grid__innerScrollContainer 
 > div.gpfocuswithin
+,
+.gamepadhome_RecentSection_39tNv 
+.basicgamecarousel_BasicGameCarousel_3MdH5
+.ReactVirtualized__Grid__innerScrollContainer 
+> div[tabindex]
 {
     position: relative;
     z-index: 1;  
@@ -49,12 +54,4 @@
 .appportrait_LibraryItemBox_WYgDg
 {
     overflow: hidden;
-}
-
-/*Untilt the compatibility icons*/
-.gamepadhome_RecentSection_39tNv 
-.basicgamecarousel_BasicGameCarousel_3MdH5
-.appportrait_LibraryItemOverlayInnerArea_2GRcK > div
-{
-    transform: skew(calc(-1*var(--ren-tilt-angle)));
 }
