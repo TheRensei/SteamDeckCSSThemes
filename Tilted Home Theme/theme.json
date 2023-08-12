@@ -3,7 +3,7 @@
 	"author": "TheRensei",
 	"target": "Home",
 	"version": "v1.0",
-	"description": "Clean tiled home view portraits",
+	"description": "Tilted home game tiles, including settings for the tilt angle and method",
 	"manifest_version": 5,
 	"inject": {
 		"shared.css": [
@@ -98,7 +98,7 @@
 					"tilt-opposite.css": [
 						"SP"
 					]
-				}
+				},
 				"3D": {
 					"tlt-3d.css": [
 						"SP"
