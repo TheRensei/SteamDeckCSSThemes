@@ -4,12 +4,12 @@
 .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(1)
 .appportrait_HoversEnabled_54PuC
 {
-    transform: translateX(40%) perspective(400px) rotateY(calc(1*var(--ren-tilt-angle))) translateX(-40%);
+    transform: translateX(40%) perspective(600px) rotateY(calc(1*var(--ren-tilt-angle))) translateX(-40%);
 }
 
 /*Tilt 'View More' tile*/
 [data-id="GoToLibrary"] {       
-    transform: perspective(400px) rotateY(calc(-2*var(--ren-tilt-angle))) scale(0.94);
+    transform: perspective(600px) rotateY(calc(-2*var(--ren-tilt-angle))) scale(0.94);
     transition: transform 0.4s;
 }
 
@@ -24,8 +24,8 @@
 .basicgamecarousel_BasicGameCarousel_3MdH5
 .appportrait_HoversEnabled_54PuC
 {
-	transition-duration: 0.4s;
-    transform: perspective(400px) rotateY(calc(2*var(--ren-tilt-angle)));
+	transition-duration: .4s;
+    transform: perspective(600px) rotateY(calc(2*var(--ren-tilt-angle)));
 }
 
 /*Tilt right game portraits, also while tabbed out*/
@@ -39,8 +39,7 @@
 .ReactVirtualized__Grid__innerScrollContainer > div[tabindex]  ~ div 
 .appportrait_HoversEnabled_54PuC
 {
-    transform: perspective(400px) rotateY(calc(-2*var(--ren-tilt-angle)));
-
+    transform: perspective(600px) rotateY(calc(-2*var(--ren-tilt-angle)));
 }
 
 /*Scale focused tile, also while tabbed out*/
@@ -59,6 +58,3 @@
 {
     transform: scale(1.02);
 }
-
-
-
