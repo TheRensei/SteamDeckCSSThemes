@@ -50,9 +50,15 @@
 ,
 .gamepadhome_RecentSection_39tNv 
 .basicgamecarousel_BasicGameCarousel_3MdH5
+.ReactVirtualized__Grid__innerScrollContainer > div:nth-child(1)
+.appportrait_HoversEnabled_54PuC.gpfocuswithin
+,
+.gamepadhome_RecentSection_39tNv 
+.basicgamecarousel_BasicGameCarousel_3MdH5
 .appportrait_HoversEnabled_54PuC[tabindex] 
 {
     transform: scale(1.02);
 }
+
 
 
