@@ -1,3 +1,12 @@
+
+/*Offset the most recent tile*/
+.gamepadhome_RecentSection_39tNv 
+.basicgamecarousel_BasicGameCarousel_3MdH5
+.ReactVirtualized__Grid__innerScrollContainer > div:nth-child(1).gpfocuswithin
+{
+    transform: translateX(var(--ren-most-recent-offset));
+}
+
 /*Tilt 'View More' tile*/
 [data-id="GoToLibrary"] {
     transform: skew(var(--ren-tilt-angle));

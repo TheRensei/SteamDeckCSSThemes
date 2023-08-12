@@ -99,6 +99,11 @@
 						"SP"
 					]
 				}
+				"3D": {
+					"tlt-3d.css": [
+						"SP"
+					]
+				}
 			},
 			"components": []
 		}

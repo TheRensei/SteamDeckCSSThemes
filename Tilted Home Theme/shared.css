@@ -6,13 +6,6 @@
     --ren-view-more-focus-scale: 0.88;
 }
 
-/*Offset the most recent tile*/
-.gamepadhome_RecentSection_39tNv 
-.basicgamecarousel_BasicGameCarousel_3MdH5
-.ReactVirtualized__Grid__innerScrollContainer > div:nth-child(1).gpfocuswithin
-{
-    transform: translateX(var(--ren-most-recent-offset));
-}
 
 /*Draw focused tile and glow on top of the rest, also while tabbed out*/
 .gamepadhome_RecentSection_39tNv 
