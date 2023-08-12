@@ -1,3 +1,15 @@
+/*Tilt 'View More' tile*/
+[data-id="GoToLibrary"] {
+    transform: skew(var(--ren-tilt-angle));
+    transition: transform 0.4s;
+}
+
+/*Tilt,scale and offset focused 'View More' tile*/
+[data-id="GoToLibrary"].gpfocuswithin  {
+     transform: scale(1.05);;    
+}
+
+
 /*Tilt left game portraits*/
 .gamepadhome_RecentSection_39tNv 
 .basicgamecarousel_BasicGameCarousel_3MdH5
