@@ -1,0 +1,24 @@
+/*Tilt left game portraits*/
+.gamepadhome_RecentSection_39tNv 
+.basicgamecarousel_BasicGameCarousel_3MdH5
+.appportrait_HoversEnabled_54PuC
+{
+     transform:skew(calc(-1*var(--ren-tilt-angle)));
+}
+
+/*Tilt right game portraits*/
+.gamepadhome_RecentSection_39tNv 
+.basicgamecarousel_BasicGameCarousel_3MdH5
+.ReactVirtualized__Grid__innerScrollContainer > div.gpfocuswithin ~ div 
+.appportrait_HoversEnabled_54PuC
+{
+     transform: skew(var(--ren-tilt-angle)); 
+}
+
+/*Scale focused tile*/
+.gamepadhome_RecentSection_39tNv 
+.basicgamecarousel_BasicGameCarousel_3MdH5
+.appportrait_HoversEnabled_54PuC.gpfocuswithin 
+{
+    transform: scale(1.02);
+}

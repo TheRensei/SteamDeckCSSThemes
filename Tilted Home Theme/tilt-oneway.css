@@ -1,0 +1,15 @@
+/*Tilt game portraits*/
+.gamepadhome_RecentSection_39tNv 
+.basicgamecarousel_BasicGameCarousel_3MdH5
+.appportrait_HoversEnabled_54PuC
+{
+     transform: skew(var(--ren-tilt-angle));
+}
+
+/*Tilt and scale focused tile*/
+.gamepadhome_RecentSection_39tNv 
+.basicgamecarousel_BasicGameCarousel_3MdH5
+.appportrait_HoversEnabled_54PuC.gpfocuswithin 
+{
+    transform: skew(var(--ren-tilt-angle)) scale(1.02);
+}

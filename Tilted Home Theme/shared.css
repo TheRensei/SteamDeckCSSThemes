@@ -6,14 +6,6 @@
     --ren-view-more-focus-scale: 0.88;
 }
 
-/*Tilt game portraits*/
-.gamepadhome_RecentSection_39tNv 
-.basicgamecarousel_BasicGameCarousel_3MdH5
-.appportrait_HoversEnabled_54PuC
-{
-     transform: skew(var(--ren-tilt-angle));
-}
-
 /*Tilt 'View More' tile*/
 [data-id="GoToLibrary"] {
     transform: skew(var(--ren-tilt-angle));
@@ -39,14 +31,6 @@
 .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(1).gpfocuswithin
 {
     transform: translateX(var(--ren-most-recent-offset));
-}
-
-/*Tilt and scale focused tile*/
-.gamepadhome_RecentSection_39tNv 
-.basicgamecarousel_BasicGameCarousel_3MdH5
-.appportrait_HoversEnabled_54PuC.gpfocuswithin 
-{
-    transform: skew(var(--ren-tilt-angle)) scale(1.02);
 }
 
 /*Draw focused tile and glow on top of the rest*/

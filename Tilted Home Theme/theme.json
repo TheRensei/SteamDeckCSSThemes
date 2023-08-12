@@ -83,6 +83,21 @@
 				},
 				"No": {}
 			},
+		"Tilt Method": {
+			"type": "dropdown",
+			"default": "One Way",
+			"values": {
+				"One Way": {
+					"tilt-oneway.css": [
+						"SP"
+					]
+				},
+				"Opposites": {
+					"tilt-opposite.css": [
+						"SP"
+					]
+				}
+			},	
 			"components": []
 		}
 	}
