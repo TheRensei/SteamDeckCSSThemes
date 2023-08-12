@@ -3,7 +3,7 @@
 	"author": "TheRensei",
 	"target": "Home",
 	"version": "v1.0",
-	"description": "Tilted home view portraits",
+	"description": "Clean tiled home view portraits",
 	"manifest_version": 5,
 	"inject": {
 		"shared.css": [
@@ -83,6 +83,8 @@
 				},
 				"No": {}
 			},
+			"components": []
+		},
 		"Tilt Method": {
 			"type": "dropdown",
 			"default": "One Way",
@@ -97,7 +99,7 @@
 						"SP"
 					]
 				}
-			},	
+			},
 			"components": []
 		}
 	}

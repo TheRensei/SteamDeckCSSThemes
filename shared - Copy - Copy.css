@@ -1,0 +1,86 @@
+:root {
+    --ren-tilt-angle: -5deg;
+    --ren-image-zoom: 1.15;
+    --ren-most-recent-offset: 2%;
+    --ren-view-more-offset: -7%;
+    --ren-view-more-focus-scale: 0.88;
+}
+
+/*Tilt left game portraits*/
+.gamepadhome_RecentSection_39tNv 
+.basicgamecarousel_BasicGameCarousel_3MdH5
+.appportrait_HoversEnabled_54PuC
+{
+     transform:skew(calc(-1*var(--ren-tilt-angle)));
+}
+
+/*Tilt right game portraits*/
+.gamepadhome_RecentSection_39tNv 
+.basicgamecarousel_BasicGameCarousel_3MdH5
+.ReactVirtualized__Grid__innerScrollContainer > div.gpfocuswithin ~ div 
+.appportrait_HoversEnabled_54PuC
+{
+     transform: skew(var(--ren-tilt-angle)); 
+}
+
+/*Tilt 'View More' tile*/
+[data-id="GoToLibrary"] {
+    transform: skew(var(--ren-tilt-angle));
+    transition: transform 0.4s;
+}
+
+/*Tilt,scale and offset focused 'View More' tile*/
+[data-id="GoToLibrary"].gpfocuswithin  {
+     transform: skew(var(--ren-tilt-angle)) scale(1.05) translateX(var(--ren-view-more-offset));    
+}
+
+/*Tilt 'View More' tile's frame*/
+.gamepadhome_ScrollArea_3PhGY
+> .focusring_FocusRingRoot_3PH_X
+> .focusring_FocusRing_1IZrQ
+{
+    transform: skew(var(--ren-tilt-angle)) scaleX(var(--ren-view-more-focus-scale));
+}
+
+/*Offset the most recent tile*/
+.gamepadhome_RecentSection_39tNv 
+.basicgamecarousel_BasicGameCarousel_3MdH5
+.ReactVirtualized__Grid__innerScrollContainer > div:nth-child(1).gpfocuswithin
+{
+    transform: translateX(var(--ren-most-recent-offset));
+}
+
+/*Tilt and scale focused tile*/
+.gamepadhome_RecentSection_39tNv 
+.basicgamecarousel_BasicGameCarousel_3MdH5
+.appportrait_HoversEnabled_54PuC.gpfocuswithin 
+{
+    transform: scale(1.02);
+}
+
+
+/*Draw focused tile and glow on top of the rest*/
+.gamepadhome_RecentSection_39tNv 
+.basicgamecarousel_BasicGameCarousel_3MdH5
+.ReactVirtualized__Grid__innerScrollContainer 
+> div.gpfocuswithin
+{
+    position: relative;
+    z-index: 1;  
+}
+
+/*Cut tilted images and decrease brightness of uncofused tiles*/
+.gamepadhome_RecentSection_39tNv 
+.basicgamecarousel_BasicGameCarousel_3MdH5
+.appportrait_LibraryItemBox_WYgDg
+{
+    overflow: hidden;
+}
+
+/*Untilt the compatibility icons*/
+.gamepadhome_RecentSection_39tNv 
+.basicgamecarousel_BasicGameCarousel_3MdH5
+.appportrait_LibraryItemOverlayInnerArea_2GRcK > div
+{
+    transform: skew(calc(-1*var(--ren-tilt-angle)));
+}
