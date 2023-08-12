@@ -1,2 +1,2 @@
-# Steam-Deck-Theme-Template
-Template repository to get started with theming quicker
+# Rensei's-Steam-Deck-Themes
+Custom steam deck themes
