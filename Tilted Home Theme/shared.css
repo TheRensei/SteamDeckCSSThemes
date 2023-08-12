@@ -6,25 +6,6 @@
     --ren-view-more-focus-scale: 0.88;
 }
 
-/*Tilt 'View More' tile*/
-[data-id="GoToLibrary"] {
-    transform: skew(var(--ren-tilt-angle));
-    transition: transform 0.4s;
-}
-
-/*Tilt,scale and offset focused 'View More' tile*/
-[data-id="GoToLibrary"].gpfocuswithin  {
-     transform: skew(var(--ren-tilt-angle)) scale(1.05) translateX(var(--ren-view-more-offset));    
-}
-
-/*Tilt 'View More' tile's frame*/
-.gamepadhome_ScrollArea_3PhGY
-> .focusring_FocusRingRoot_3PH_X
-> .focusring_FocusRing_1IZrQ
-{
-    transform: skew(var(--ren-tilt-angle)) scaleX(var(--ren-view-more-focus-scale));
-}
-
 /*Offset the most recent tile*/
 .gamepadhome_RecentSection_39tNv 
 .basicgamecarousel_BasicGameCarousel_3MdH5
