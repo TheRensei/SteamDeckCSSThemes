@@ -59,19 +59,6 @@
 			},
 			"components": []
 		},
-		"Darken portraits": {
-			"type": "checkbox",
-			"default": "Yes",
-			"values": {
-				"Yes": {
-					"darkerportraits.css": [
-						"SP"
-					]
-				},
-				"No": {}
-			},
-			"components": []
-		},
 		"Tilt Method": {
 			"type": "dropdown",
 			"default": "One Way",
