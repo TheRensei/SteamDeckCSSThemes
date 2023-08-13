@@ -8,14 +8,6 @@
 	"inject": {
 		"shared.css": [
 			"SP"
-		],
-		"--ren-game-tile-brightness": [
-			"0.5",
-			"SP"
-		],
-		"--ren-game-tile-saturate": [
-			"0.5",
-			"SP"
 		]
 	},
 	"dependencies": {},
