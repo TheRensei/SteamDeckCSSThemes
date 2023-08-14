@@ -146,11 +146,11 @@
 			},
 			"components": []
 		},
-		"Apply everywhere": {
+		"Apply": {
 			"type": "dropdown",
-			"default": "Global",
+			"default": "Globally",
 			"values": {
-				"Global": {
+				"Globally": {
 					"global.css": [
 						"SP"
 					]
