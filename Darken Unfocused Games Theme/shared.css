@@ -2,11 +2,3 @@
     --ren-game-tile-brightness: 0.5;
     --ren-game-tile-saturate: 0.5;
 }
-
-/*Decrease brightness and saturation of uncofused tiles*/
-.gamepadhome_RecentSection_39tNv 
-.basicgamecarousel_BasicGameCarousel_3MdH5
-.appportrait_LibraryItemBox_WYgDg
-{
-    filter : brightness(var(--ren-game-tile-brightness)) saturate(var(--ren-game-tile-saturate));
-}

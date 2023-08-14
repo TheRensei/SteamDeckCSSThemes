@@ -1,0 +1,4 @@
+/*Decrease brightness and saturation of uncofused tiles for game portraits everywhere*/
+.BasicUI .appportrait_LibraryItemBox_WYgDg {
+    filter : brightness(var(--ren-game-tile-brightness)) saturate(var(--ren-game-tile-saturate));
+}

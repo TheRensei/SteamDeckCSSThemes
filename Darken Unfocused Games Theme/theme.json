@@ -1,8 +1,8 @@
 {
 	"name": "Darken Unfocused Games",
 	"author": "TheRensei",
-	"target": "Home",
-	"version": "v1.0",
+	"target": "System-Wide",
+	"version": "v1.1",
 	"description": "Change brightness and saturation of the unfocused game tiles on your home screen",
 	"manifest_version": 5,
 	"inject": {
@@ -140,6 +140,23 @@
 				"1.0": {
 					"--ren-game-tile-saturate": [
 						"1.0",
+						"SP"
+					]
+				}
+			},
+			"components": []
+		},
+		"Apply everywhere": {
+			"type": "dropdown",
+			"default": "Global",
+			"values": {
+				"Global": {
+					"global.css": [
+						"SP"
+					]
+				},
+				"Recent Only": {
+					"recent-games.css": [
 						"SP"
 					]
 				}
