@@ -1,0 +1,117 @@
+/*dependency on:
+- show download status
+- centered home text*/
+
+:root {
+  --ren-jedi-outline-color: white;
+}
+
+.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus {
+  outline: none;
+  animation: none;
+  transform: translateZ(20px);
+}
+
+.appportrait_HoversEnabled_54PuC
+.appportrait_LibraryItemBox_WYgDg,
+.appportrait_LibraryItemBox_WYgDg.gpfocus::after,
+.appportrait_LibraryItemBox_WYgDg
+.libraryassetimage_GreyBackground_2E7G8
+
+{
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+/*main border around the game portraits*/
+.appportrait_LibraryItemBox_WYgDg
+.libraryassetimage_GreyBackground_2E7G8
+{
+    overflow: hidden;
+    border: 1.5px solid var(--ren-jedi-outline-color);
+}
+
+
+/*add dark gradient from bottom for portraits*/
+.appportrait_LibraryItemBox_WYgDg
+.libraryassetimage_Container_1R9r2.libraryassetimage_GreyBackground_2E7G8:after 
+{
+	content:'';
+	position:absolute;
+	left:0; top:calc(70% + 1.5px);
+	width:100%;
+	height:30%;
+	display:inline-block;
+	background: linear-gradient(to bottom, rgb(255 255 255 / 0%) 0%,rgb(0 0 0) 100%);
+}
+
+
+/*remove compatibility background and move it to the center*/
+.appportrait_LibraryItemBox_WYgDg
+.shared_svg_library_SteamDeckCompatInfo_2LcFI
+{
+    background:none;
+	left:calc(50% - 30px - 12px);
+	right:calc(50% - 30px - 12px);
+	bottom:auto;
+	top:calc(100% - 10.75px);
+	margin: 0 auto;
+}
+
+/*move first compatibility logo to the left*/
+.appportrait_LibraryItemBox_WYgDg
+.shared_svg_library_SteamDeckCompatInfo_2LcFI
+.shared_svg_library_SteamDeckCompatLogo_Tplfb
+{
+
+}
+
+/*move second compatibility logo to the right*/
+.appportrait_LibraryItemBox_WYgDg
+.shared_svg_library_SteamDeckCompatInfo_2LcFI
+.shared_svg_library_SteamDeckCompatIcon_2hEWY
+{
+	margin-left:auto;
+}
+
+
+/*move download status to the middle and disable transition*/
+div[class*="appportrait_LibraryItemBox"][class*="appportrait_Portrait"][class*="appportrait_InRecentGames"][class*="appportrait_BasicMode"].Panel.Focusable.gpfocus.gpfocuswithin:only-child:before, 
+div[class*="appportrait_LibraryItemBox"][class*="appportrait_Landscape"][class*="appportrait_InRecentGames"][class*="appportrait_FeaturedCapsule"][class*="appportrait_BasicMode"].Panel.Focusable.gpfocus.gpfocuswithin:only-child:before, 
+div[class*="appportrait_LibraryItemBox"][class*="appportrait_Portrait"][class*="appportrait_InCollection"][class*="appportrait_BasicMode"].Panel.Focusable.gpfocus.gpfocuswithin:only-child:before, 
+div[class*="appportrait_LibraryItemBox"][class*="appportrait_Portrait"][class*="appportrait_InRecentGames"][class*="appportrait_BasicMode"].Panel.Focusable.gpfocus.gpfocuswithin:only-child:before,
+div[class*="appportrait_LibraryItemBox"][class*="appportrait_Landscape"][class*="appportrait_InRecentGames"][class*="appportrait_FeaturedCapsule"][class*="appportrait_BasicMode"].Panel.Focusable.gpfocus.gpfocuswithin:only-child:before, 
+div[class*="appportrait_LibraryItemBox"].gpfocus div[class*="appportrait_UninstalledIcon"],
+div[class*="appportrait_LibraryItemBox"] div[class*="appportrait_UninstalledIcon"]
+{
+    padding: 4px;
+    top: calc(100% - 14.75px);
+	left: 0;
+	right:0;
+	margin: 0 auto;
+	transition:none;
+}
+
+/*add border and set background for compatibility and download status icons*/
+.appportrait_LibraryItemBox_WYgDg
+.shared_svg_library_SteamDeckCompatInfo_2LcFI
+.shared_svg_library_SteamDeckCompatLogo_Tplfb,
+.appportrait_LibraryItemBox_WYgDg
+.shared_svg_library_SteamDeckCompatInfo_2LcFI
+.shared_svg_library_SteamDeckCompatIcon_2hEWY,
+div[class*="appportrait_LibraryItemBox"][class*="appportrait_Portrait"][class*="appportrait_InRecentGames"][class*="appportrait_BasicMode"].Panel.Focusable.gpfocus.gpfocuswithin:only-child:before, 
+div[class*="appportrait_LibraryItemBox"][class*="appportrait_Landscape"][class*="appportrait_InRecentGames"][class*="appportrait_FeaturedCapsule"][class*="appportrait_BasicMode"].Panel.Focusable.gpfocus.gpfocuswithin:only-child:before, 
+div[class*="appportrait_LibraryItemBox"][class*="appportrait_Portrait"][class*="appportrait_InCollection"][class*="appportrait_BasicMode"].Panel.Focusable.gpfocus.gpfocuswithin:only-child:before, 
+div[class*="appportrait_LibraryItemBox"][class*="appportrait_Portrait"][class*="appportrait_InRecentGames"][class*="appportrait_BasicMode"].Panel.Focusable.gpfocus.gpfocuswithin:only-child:before,
+div[class*="appportrait_LibraryItemBox"][class*="appportrait_Landscape"][class*="appportrait_InRecentGames"][class*="appportrait_FeaturedCapsule"][class*="appportrait_BasicMode"].Panel.Focusable.gpfocus.gpfocuswithin:only-child:before, 
+div[class*="appportrait_LibraryItemBox"].gpfocus div[class*="appportrait_UninstalledIcon"]
+{
+  border: 1.5px solid var(--ren-jedi-outline-color);
+  border-radius: 50%;
+  background:#000000;
+}
+
+/*move text lower*/
+.BasicUI .basicgamecarousel_CarouselGameLabelWrapper_ZkD6W {
+	transform:translateY(20%); 
+}

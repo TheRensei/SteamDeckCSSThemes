@@ -1,0 +1,15 @@
+{
+	"name": "Clean Jedi Frame",
+	"author": "TheRensei",
+	"target": "System-Wide",
+	"version": "v1.0",
+	"description": "Adds a frame around the game tiles and changes position of the compatibility and download status icons",
+	"manifest_version": 5,
+	"inject": {
+		"shared.css": [
+			"SP"
+		]
+	},
+	"dependencies": {},
+	"patches": {}
+}
