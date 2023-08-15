@@ -1,0 +1,71 @@
+:root {
+    --ren-tilt-angle: -5deg !important;
+    --ren-image-zoom: 1.56 !important;
+    --ren-most-recent-offset: 8.5% !important;
+    --ren-view-more-offset: -26% !important;
+    --ren-view-more-focus-scale: 0.645 !important;
+}
+
+/*Draw focused tile and glow on top of the rest, also while tabbed out*/
+.gamepadhome_RecentSection_39tNv 
+.basicgamecarousel_BasicGameCarousel_3MdH5
+.ReactVirtualized__Grid__innerScrollContainer 
+> div.gpfocuswithin
+,
+.gamepadhome_RecentSection_39tNv 
+.basicgamecarousel_BasicGameCarousel_3MdH5
+.ReactVirtualized__Grid__innerScrollContainer 
+> div[tabindex]
+{
+    position: relative;
+    z-index: 1;  
+}
+
+/*Cut tilted images and decrease brightness of uncofused tiles*/
+.gamepadhome_RecentSection_39tNv 
+.basicgamecarousel_BasicGameCarousel_3MdH5
+.appportrait_LibraryItemBox_WYgDg
+{
+    overflow: hidden;
+}
+
+/.gamepadhomerecentgames_RecentGamesInnerContainer_282X0
+{
+    transform:rotateZ(-5deg) translateX(-1.6%);
+    width: 103% !important;
+}
+
+.gamepadhomerecentgames_RecentGamesInnerContainer_282X0
+.ReactVirtualized__Grid__innerScrollContainer > div
+{
+    transform:rotateZ(calc(-1 * var(--ren-tilt-angle))) scale(0.9);
+}
+
+/.gamepadhomerecentgames_RecentGamesInnerContainer_282X0
+.gamepadhomerecentgames_RecentGamesHeader_35iRe
+{
+    transform:rotateZ(5deg) translateX(2.9%);
+}
+
+/*-------------------------------------------------------------*/
+
+.gamepadhomerecentgames_RecentGamesContainer_2_cRk {
+	overflow:hidden;
+}
+
+
+.ReactVirtualized__Grid.basicgamecarousel_BasicGameCarousel_3MdH5 {
+	
+}
+
+.basicgamecarousel_BasicGameCarousel_3MdH5
+{
+	 transform:rotateZ(var(--ren-tilt-angle)) skew(var(--ren-tilt-angle));
+}
+
+.basicgamecarousel_BasicGameCarousel_3MdH5 > div
+{
+	 transform: skew(calc(-1 * var(--ren-tilt-angle)));
+}
+
+/*align-items: center;*/
