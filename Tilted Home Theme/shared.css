@@ -21,11 +21,3 @@
     position: relative;
     z-index: 1;  
 }
-
-/*Cut tilted images and decrease brightness of uncofused tiles*/
-.gamepadhome_RecentSection_39tNv 
-.basicgamecarousel_BasicGameCarousel_3MdH5
-.appportrait_LibraryItemBox_WYgDg
-{
-    overflow: hidden;
-}
