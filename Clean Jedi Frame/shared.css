@@ -1,6 +1,5 @@
 /*dependency on:
-- show download status
-- centered home text*/
+- show download status*/
 
 :root {
   --ren-jedi-outline-color: white;
@@ -17,7 +16,6 @@
 .appportrait_LibraryItemBox_WYgDg.gpfocus::after,
 .appportrait_LibraryItemBox_WYgDg
 .libraryassetimage_GreyBackground_2E7G8
-
 {
     border-radius: 0px 0px 20px 20px;
 }
@@ -56,14 +54,6 @@
 	bottom:auto;
 	top:calc(100% - 10.75px);
 	margin: 0 auto;
-}
-
-/*move first compatibility logo to the left*/
-.appportrait_LibraryItemBox_WYgDg
-.shared_svg_library_SteamDeckCompatInfo_2LcFI
-.shared_svg_library_SteamDeckCompatLogo_Tplfb
-{
-
 }
 
 /*move second compatibility logo to the right*/
