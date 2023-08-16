@@ -45,10 +45,13 @@
 }
 
 
-/*Untilt the compatibility icons*/
+/*Untilt the compatibility icons and before class (used by download status theme)*/
 .gamepadhome_RecentSection_39tNv 
 .basicgamecarousel_BasicGameCarousel_3MdH5
-.appportrait_LibraryItemOverlayInnerArea_2GRcK > div
+.appportrait_LibraryItemOverlayInnerArea_2GRcK > div,
+.gamepadhome_RecentSection_39tNv 
+.basicgamecarousel_BasicGameCarousel_3MdH5
+.appportrait_LibraryItemBox_WYgDg:before
 {
     transform: skew(calc(-1*var(--ren-tilt-angle)));
 }
