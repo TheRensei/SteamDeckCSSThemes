@@ -1,5 +1,5 @@
 {
-	"name": "Game Covers Reflections",
+	"name": "Game Cover Reflections",
 	"author": "TheRensei",
 	"target": "Home",
 	"version": "v1.0",
@@ -24,61 +24,61 @@
 				},
 				"0.1": {
 					"--ren-reflection-focused-opacity": [
-						"#FFFFFF",
+						"0.1",
 						"SP"
 					]
 				},
 				"0.2": {
 					"--ren-reflection-focused-opacity": [
-						"#FFFFFF",
+						"0.2",
 						"SP"
 					]
 				},
 				"0.3": {
 					"--ren-reflection-focused-opacity": [
-						"#FFFFFF",
+						"0.3",
 						"SP"
 					]
 				},
 				"0.4": {
 					"--ren-reflection-focused-opacity": [
-						"#FFFFFF",
+						"0.4",
 						"SP"
 					]
 				},
 				"0.5": {
 					"--ren-reflection-focused-opacity": [
-						"#FFFFFF",
+						"0.5",
 						"SP"
 					]
 				},
 				"0.6": {
 					"--ren-reflection-focused-opacity": [
-						"#FFFFFF",
+						"0.6",
 						"SP"
 					]
 				},
 				"0.7": {
 					"--ren-reflection-focused-opacity": [
-						"#FFFFFF",
+						"0.7",
 						"SP"
 					]
 				},
 				"0.8": {
 					"--ren-reflection-focused-opacity": [
-						"#FFFFFF",
+						"0.8",
 						"SP"
 					]
 				},
 				"0.9": {
 					"--ren-reflection-focused-opacity": [
-						"#FFFFFF",
+						"0.9",
 						"SP"
 					]
 				},
 				"1.0": {
 					"--ren-reflection-focused-opacity": [
-						"#FFFFFF",
+						"1.0",
 						"SP"
 					]
 				}
