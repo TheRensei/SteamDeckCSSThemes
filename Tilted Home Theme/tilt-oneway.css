@@ -1,4 +1,3 @@
-
 /*Offset the most recent tile*/
 .gamepadhome_RecentSection_39tNv 
 .basicgamecarousel_BasicGameCarousel_3MdH5
@@ -18,28 +17,17 @@
      transform: skew(var(--ren-tilt-angle)) scale(1.05) translateX(var(--ren-view-more-offset));    
 }
 
-/*Tilt 'View More' tile's frame*/
-.gamepadhome_ScrollArea_3PhGY
-> .focusring_FocusRingRoot_3PH_X
-> .focusring_FocusRing_1IZrQ
+/*Tilt left game portraits*/
+.gamepadhome_RecentSection_39tNv
+.basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN > div:first-child
 {
-    transform: skew(var(--ren-tilt-angle)) scaleX(var(--ren-view-more-focus-scale));
-}
-
-
-/*Tilt game portraits*/
-.gamepadhome_RecentSection_39tNv 
-.basicgamecarousel_BasicGameCarousel_3MdH5
-.appportrait_HoversEnabled_54PuC
-{
-    transform: skew(var(--ren-tilt-angle));
+    transform:skew(var(--ren-tilt-angle));
 	transition-duration: 0.4s;
 }
 
 /*Tilt and scale focused tile*/
-.gamepadhome_RecentSection_39tNv 
-.basicgamecarousel_BasicGameCarousel_3MdH5
-.appportrait_HoversEnabled_54PuC.gpfocuswithin 
+.gamepadhome_RecentSection_39tNv
+.basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN.gpfocuswithin > div:first-child
 {
     transform: skew(var(--ren-tilt-angle)) scale(1.02);
 }

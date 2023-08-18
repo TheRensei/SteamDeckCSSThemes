@@ -2,10 +2,11 @@
 .gamepadhome_RecentSection_39tNv 
 .basicgamecarousel_BasicGameCarousel_3MdH5
 .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(1)
-.appportrait_HoversEnabled_54PuC
+.basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN > div:first-child
 {
     transform: translateX(40%) perspective(600px) rotateY(calc(1*var(--ren-tilt-angle))) translateX(-40%);
 }
+
 
 /*Tilt 'View More' tile*/
 [data-id="GoToLibrary"] {       
@@ -20,9 +21,8 @@
 
 
 /*Tilt left game portraits*/
-.gamepadhome_RecentSection_39tNv 
-.basicgamecarousel_BasicGameCarousel_3MdH5
-.appportrait_HoversEnabled_54PuC
+.gamepadhome_RecentSection_39tNv
+.basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN > div:first-child
 {
 	transition-duration: .4s;
     transform: perspective(600px) rotateY(calc(2*var(--ren-tilt-angle)));
@@ -31,30 +31,26 @@
 /*Tilt right game portraits, also while tabbed out*/
 .gamepadhome_RecentSection_39tNv 
 .basicgamecarousel_BasicGameCarousel_3MdH5
-.ReactVirtualized__Grid__innerScrollContainer > div.gpfocuswithin ~ div 
-.appportrait_HoversEnabled_54PuC
+.ReactVirtualized__Grid__innerScrollContainer > div.gpfocuswithin ~ div
+.basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN > div:first-child
 ,
 .gamepadhome_RecentSection_39tNv 
 .basicgamecarousel_BasicGameCarousel_3MdH5
 .ReactVirtualized__Grid__innerScrollContainer > div[tabindex]  ~ div 
-.appportrait_HoversEnabled_54PuC
+.basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN > div:first-child
 {
     transform: perspective(600px) rotateY(calc(-2*var(--ren-tilt-angle)));
 }
 
 /*Scale focused tile, also while tabbed out*/
 .gamepadhome_RecentSection_39tNv 
-.basicgamecarousel_BasicGameCarousel_3MdH5
-.appportrait_HoversEnabled_54PuC.gpfocuswithin 
-,
+.basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN.gpfocuswithin > div:first-child,
+.gamepadhome_RecentSection_39tNv 
+.basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN[tabindex] > div:first-child,
 .gamepadhome_RecentSection_39tNv 
 .basicgamecarousel_BasicGameCarousel_3MdH5
 .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(1)
-.appportrait_HoversEnabled_54PuC.gpfocuswithin
-,
-.gamepadhome_RecentSection_39tNv 
-.basicgamecarousel_BasicGameCarousel_3MdH5
-.appportrait_HoversEnabled_54PuC[tabindex] 
+.basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN.gpfocuswithin > div:first-child
 {
     transform: scale(1.02);
 }
