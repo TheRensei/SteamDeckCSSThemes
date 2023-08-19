@@ -2,7 +2,7 @@
 	"name": "Tilted Home",
 	"author": "TheRensei",
 	"target": "Home",
-	"version": "v1.1",
+	"version": "v1.2",
 	"description": "Tilted home game tiles, including settings for the tilt angle and method",
 	"manifest_version": 5,
 	"inject": {
