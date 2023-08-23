@@ -21,3 +21,9 @@
     position: relative;
     z-index: 1;  
 }
+
+/*Preserves the 3d transform, fixes flickering when rotating*/
+.gamepadhome_RecentSection_39tNv
+.basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN > div{
+	transform-style: preserve-3d;
+}
